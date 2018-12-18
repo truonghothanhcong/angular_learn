@@ -1,0 +1,19 @@
+.editor-bar{
+  align: center;
+  text-align: center;
+  padding: 10px;
+  background: blue;
+  border-color: black;
+  width: 500px;
+}
+
+li.editor-item {
+  display: inline-flex;
+  background: beige;
+  padding: 10px;
+}
+
+.editor-icon {
+  width: 10px;
+  height: 10px;
+}
