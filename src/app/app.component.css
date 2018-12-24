@@ -1,19 +1,37 @@
 .editor-bar{
-  align: center;
-  text-align: center;
-  padding: 10px;
-  background: blue;
-  border-color: black;
-  width: 500px;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  /*padding-top: 2px;*/
+  /*padding-bottom: 2px;*/
+  /*padding-left: 4px;*/
+  padding: 2px;
+  border: 0.5px solid black;
+  /*border-radius: 5px;*/
+  align-content: center;
+}
+
+li {
+  display: inline;
+  align-content: center;
 }
 
 li.editor-item {
-  display: inline-flex;
-  background: beige;
-  padding: 10px;
+  /*padding-left: 2px;*/
+  /*padding-right: 2px;*/
+  /*padding-bottom: 2px;*/
+  padding: 2px;
+  border-radius: 2px;
+  align-items: center;
+  align-content: center;
+}
+
+li.editor-item:hover {
+  background: gray;
+  opacity: 0.1%;
 }
 
 .editor-icon {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
 }
